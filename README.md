@@ -6,3 +6,6 @@ Add these ten lines (in jstemplate.js) of pure javascript to turn the {{ moustac
 Use `{{! ... }}` for multi-line statements (e.g. `for`,`if`,etc). See the example to learn more!
 
 ![example image](example.png "Using my Light theme and moustache.tmbundle")
+
+###Installation:
++ download the ZIP repository, rename the folder removing '-master', and use the .tmbundle extension
