@@ -1,0 +1,29 @@
+<html>
+<head><script src='jstemplate.js'></script></head>
+<body>
+<div id='template'>
+	<h1>This is a Template!</h1>
+	{{! for(var i in array) { }}
+		<h2>{{ array[i].header }} - {{ ((new Date()-array[i].date)/86400000).toFixed(0) }} days old</h2>
+		<p>{{ array[i].content }}</p>
+	{{! } }}
+</div>
+<script>
+var controller = {
+	array: [
+		{
+			header:'header1',
+			content:'content1',
+			date: new Date(2014,7,19,9)
+		},
+		{
+			header:'header2',
+			content:'content2',
+			date:new Date(2014,7,21,9)
+		}
+	]
+};
+document.getElementById('template').moustache(controller);
+</script>
+</body>
+</html>
