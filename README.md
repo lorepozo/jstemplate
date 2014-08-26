@@ -7,8 +7,5 @@ Use `{{! ... }}` for multi-line statements (e.g. `for`,`if`,etc). See the exampl
 
 ![example image](example.png "Using my Light theme and moustache.tmbundle")
 
-###Installation:
-download the ZIP repository, rename the folder removing '-master', and use the .tmbundle extension
-
 ###Usage:
 To run the template script on an element e, use `e.moustache(controller)`, where `controller` is an optional object referenced in all embedded javascript. 
